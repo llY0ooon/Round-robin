@@ -1,0 +1,24 @@
+[code]
+
+import java.util.Scanner;
+
+public class Process {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		MemoryMgmt m = new MemoryMgmt();
+		FileMgmt f = new FileMgmt();
+		
+		System.out.println("Digite 1 para rodar com valores salvos ou 0 para inserir os valores:");
+		m.r = leia.nextInt();
+		if(m.r == 1) {
+			f.ProcessoPronto();
+		}
+		else {
+		
+		System.out.println("Digite a quantidade de pessoas na fila:");
+		m.pfila = leia.nextInt();
+    
+    [/code]
