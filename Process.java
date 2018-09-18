@@ -31,7 +31,7 @@ public class Process {
 			if(m.contas[m.c]==-1) 
 			m.contas[m.c]= (m.contas[m.c] * -1)-1;
 		System.out.printf("\nA pessoa %d ainda tem %d conta(s) a pagar\n",(m.c),(m.contas[m.c]));
-if(m.contas[m.c]>0)
+		if(m.contas[m.c]>0)
 			{
 				m.c++;
 			}
@@ -42,10 +42,7 @@ if(m.contas[m.c]>0)
 			if(m.contas[m.c] == 0 )
 			{
 				m.c++;
-			}		
 			}
-		
-		}
 		}
 				
 		
